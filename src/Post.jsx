@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import "./post.css";
+import "./Post.css";
 import amogus from "./assets/amogus.png"; // 이미지 경로 맞게 수정
 
 const Post = () => {
