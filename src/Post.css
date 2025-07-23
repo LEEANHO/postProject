@@ -1,0 +1,62 @@
+.post-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: monospace; /* 전각 정렬 문제 해결 */
+}
+
+.post-title {
+  text-align: center;
+}
+
+.post-row {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  padding: 0.5rem 0;
+}
+
+.post-header {
+  font-weight: bold;
+}
+
+.post-cell {
+  overflow-wrap: break-word;
+  white-space: nowrap;
+  padding-right: 1rem;
+}
+
+.post-cell.title {
+  width: 30%;
+}
+
+.post-cell.content {
+  width: 40%;
+}
+
+.post-cell.author {
+  width: 30%;
+}
+
+.post-input-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.post-input {
+  padding: 0.3rem;
+}
+
+.post-input.title {
+  flex: 1;
+}
+
+.post-input.content {
+  flex: 2;
+}
+
+.icon-button {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
